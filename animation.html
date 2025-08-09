@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .d1{
+            width: 100%;
+            height: 1000px;
+            animation-name: myfirst;
+            animation-duration: 10s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-play-state: running;
+        }
+        @keyframes myfirst{
+            0%{background-image: url(download.jpg); background-position: center; background-size: 100% 100%; background-repeat: no-repeat;}
+            20%{background-image: url(EF\ HATCjpg);background-position: center; background-size: 100% 100%; background-repeat: no-repeat;}
+            40%{background-image: url(ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg);background-position: center; background-size: 100% 100%; background-repeat: no-repeat;}
+            60%{background-image: url(img.jpg);background-position: center; background-size: 100% 100%; background-repeat: no-repeat;}
+            80%{background-image: url(sp.jpg);background-position: center; background-size: 100% 100%; background-repeat: no-repeat;}
+            100%{background-image: url(download.jpg);background-position: center; background-size: 100% 100%; background-repeat: no-repeat;}
+
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="d1"> 
+    </div>
+    
+</body>
+</html>
